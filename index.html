@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/script.js" defer></script>
+    <title>Product list with cart</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="products">
+        <h1 class="product__title">Desserts</h1>
+        <div class="card__container">
+          <!-- Produtos adicionados dinamicamente pelo JavaScript -->
+        </div>
+      </section>
+      <section class="cart">
+        <h3 class="cart__title">Your Cart <span>()</span></h3>
+        <ul class="cart__items">
+          <!-- Itens do carrinho adicionados dinamicamente pelo JavaScript -->
+        </ul>
+        <div class="empty__cart">
+          <img src="assets/images/illustration-empty-cart.svg" alt="" />
+          <p>You added items will appear here</p>
+        </div>
+        <div class="cart__total hidden">
+          <div class="cart__order-total">
+            <span>Order Total</span>
+            <strong>$00.00</strong>
+          </div>
+          <div class="cart__delivery-info">
+            <img src="assets/images/icon-carbon-neutral.svg" alt="Leaf Icon" />
+            <p>This is a <strong>carbon-neutral</strong> delivery</p>
+          </div>
+          <button class="cart__confirm-order">Confirm Order</button>
+        </div>
+      </section>
+    </main>
+    <section class="modal-overlay hidden">
+      <div class="modal">
+        <div class="modal__header">
+          <img src="assets/images/icon-order-confirmed.svg" alt="" />
+          <h3 class="modal__title">Order Confimerd</h3>
+          <p class="modal__subtitle">We hope you enjoy your food!</p>
+        </div>
+        <div class="modal__content">
+          <div class="modal__items">
+            <!-- Itens do pedido inseridos pelo js -->
+          </div>
+          <div class="modal__total">
+            <span>Order Total</span>
+            <strong>$00.00</strong>
+          </div>
+        </div>
+
+        <div class="modal__footer">
+          <button class="modal__close">Start New Order</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
