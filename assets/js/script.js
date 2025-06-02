@@ -48,7 +48,7 @@ const displayProducts = (products) => {
       buttonHTML = `
       <button class="card__add-btn" data-product='${JSON.stringify(product)}'>
         <img src="assets/images/icon-add-to-cart.svg" alt="" />
-        Add to Cart
+        Adicionar
       </button>
       `;
     }
