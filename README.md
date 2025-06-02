@@ -32,8 +32,8 @@ Os usuários devem conseguir:
 
 ### Links
 
-- Repositorio: [Add solution URL here](https://your-solution-url.com)
-- Deploy: [Add live site URL here](https://your-live-site-url.com)
+-[Repositório](https://github.com/jamillyferreira/product-list-with-cart)
+-[Deploy](https://product-list-with-cart-eosin.vercel.app/)
 
 ## Meu processo
 
