@@ -12,6 +12,7 @@ Esta é uma solução para o [desafio Product list with cart no Frontend Mentor]
   - [Construído com](#construído-com)
   - [O que aprendi](#o-que-aprendi)
   - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
+- [Autor](#autor)
 
 ## Visão geral
 
@@ -32,8 +33,8 @@ Os usuários devem conseguir:
 
 ### Links
 
--[Repositório](https://github.com/jamillyferreira/product-list-with-cart)
--[Deploy](https://product-list-with-cart-eosin.vercel.app/)
+- Solução no Frontend Mentor: [Ver solução](https://www.frontendmentor.io/solutions/product-list-with-cart-portuguese-YUEJ6KyeiI)
+- Site online (deploy): [Acessar site](https://product-list-with-cart-eosin.vercel.app/)
 
 ## Meu processo
 
@@ -50,3 +51,9 @@ Neste projeto, utilizei um arquivo `data.json` para carregar dinamicamente os pr
 ### Desenvolvimento contínuo
 
 Quero continuar evoluindo no consumo de APIs, aprofundando o uso de `fetch`, `async/await` e técnicas modernas de JavaScript. Além disso, pretendo estudar componentização e frameworks modernos para tornar meus projetos mais escaláveis, organizados e performáticos.
+
+## Autor
+
+- Frontend Mentor - [@jamillyferreira](https://www.frontendmentor.io/profile/jamillyferreira)
+- LinkedIn - [@jamillyferreira](https://www.linkedin.com/in/jamillyferreira/)
+- GitHub - [jamillyferreira](https://github.com/jamillyferreia)
